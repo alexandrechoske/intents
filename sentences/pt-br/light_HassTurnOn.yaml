@@ -2,7 +2,7 @@ language: pt-br
 intents:
   HassTurnOn:
     data:
-      - sentences: []
+      - sentences:
+          - "<ligar> [(todas | todos)] [(o | os | a | as)] (luz | luzes | abajur | abajures | lâmpada | lâmpadas | arandela | arandelas ) <na_zona>"
         slots:
-          domain: light
-          name: all
+          domain: "light"
